@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Pizzeria</title>
+
+    <!-- Fuentes -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+    <nav>
+            
+        <div class="logo">
+            <img src="./assets/img/logo.png" alt="Logo de La Plata Pizzas">
+        </div>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="bar-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+
+        <ul class="nav-menu">
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="menu.html">Menu</a>
+            </li>
+            <li>
+                <a href="nosotros.html">Nosotros</a>
+            </li>
+            <li>
+                <a href="reservas.html">Reservas</a>
+            </li>
+            <li>
+                <a href="contacto.html" class="active">Contacto</a>
+            </li>
+            <li>
+                <a href="pedidos.html">Mi pedido</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <form action="" method="post">
+
+    <main class="reservas__container">    
+
+        <div class="reservas__contacto">
+
+            <h2 class="linea-separador">Contactanos</h2>                           
+
+            <label for="nombre">Nombre y apellido</label>
+            <input type="text" name="nombre">
+
+            <label for="email">Email</label>
+            <input type="text" name="email">
+
+            <label for="email">Celular</label>
+            <input type="text" name="celular">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" cols="30" rows="10"></textarea>            
+
+            <div class="mt-2 mb-3">
+                <input type="submit" value="ENVIAR MENSAJE" class="btn w-100">
+            </div>
+
+        </div>
+        
+    </main>
+
+    </form>
+
+    <footer class="bottom">
+
+        <div class="footer__txt">
+            <p>
+                <span>Desarrollada por Jorge De Gaetano</span>
+                <span class="separador"> | </span>
+                <span>Curso de Desarrollo Web - CoderHouse 2022</span>
+            </p>
+        </div>  
+
+        <div class="footer__redes">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="assets/img/icons8-whatsapp-50.png" alt="Icono WhatsApp">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </footer>
+
+</body>
+</html>

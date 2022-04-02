@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Pizzeria</title>
+
+    <!-- Fuentes -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+    <nav>
+            
+        <div class="logo">
+            <img src="./assets/img/logo.png" alt="Logo de La Plata Pizzas">
+        </div>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="bar-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+
+        <ul class="nav-menu">
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="menu.html">Menu</a>
+            </li>
+            <li>
+                <a href="nosotros.html">Nosotros</a>
+            </li>
+            <li>
+                <a href="reservas.html">Reservas</a>
+            </li>
+            <li>
+                <a href="contacto.html">Contacto</a>
+            </li>
+            <li>
+                <a href="pedidos.html" class="active">Mi pedido</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <form action="" method="post">
+
+    <main class="pedidos__container mb-3">    
+
+        <div class="pedidos__contacto">
+
+            <h2 class="linea-separador mb-2">Mi pedido</h2>   
+
+            <div class="d-flex">
+
+                <div class="border-tabla-superior w-60 h-1 p1 align-c">Artículos</div>
+                <div class="border-t w-10 h-1 p1 align-c">Cantidad</div>
+                <div class="border-t border-l w-10 h-1 p1 align-c">Acciones</div>
+                <div class="border-t border-l border-r  w-10 h-1 p1 align-c">Precio</div>
+                <div class="border-t border-r w-10 h-1 p1 align-c">Total</div>                
+
+            </div>
+      
+            <div class="d-flex pedido__titulos">
+
+                <div class="border-tabla-superior w-60 h-1 p1 b">
+                    Pizza especial
+                </div>
+
+                <div class="border-t w-10 h-1 p1 align-c">
+                    <input type="number" name="cantidad" id="cantidad" step="0.5" class="inputCantidad_pedido" value="2">
+                </div>
+                
+                <div class="border-l border-t w-10 h-1 p1 align-c">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                </div>
+
+                <div class="border-t border-r border-l w-10 h-1 p1 b align-r">
+                    $ 380
+                </div>
+
+                <div class="border-t border-r w-10 h-1 p1 b align-r">
+                    $ 760
+                </div>
+
+
+            </div>
+      
+            <div class="d-flex">
+
+                <div class="border-tabla-superior w-60 h-1 p1 b">
+                    Pizza Napolitana
+                </div>
+
+                <div class="border-t w-10 h-1 p1 align-c">
+                    <input type="number" name="cantidad" id="cantidad" step="0.5" class="inputCantidad_pedido" value="1">
+                </div>
+                
+                <div class="border-l border-t w-10 h-1 p1 align-c">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                </div>
+
+                <div class="border-t border-r border-l w-10 h-1 p1 b align-r">
+                    $ 350
+                </div>
+
+                <div class="border-t border-r w-10 h-1 p1 b align-r">
+                    $ 350
+                </div>
+
+
+            </div>
+      
+            <div class="d-flex">
+
+                <div class="border-tabla-superior w-60 h-1 p1 b">
+                    Empanadas de Jamón y Queso
+                </div>
+
+                <div class="border-t w-10 h-1 p1 align-c">
+                    <input type="number" name="cantidad" id="cantidad" step="0.5" class="inputCantidad_pedido" value="12">
+                </div>
+                
+                <div class="border-l border-t w-10 h-1 p1 align-c">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                </div>
+
+                <div class="border-t border-r border-l w-10 h-1 p1 b align-r">
+                    $ 100
+                </div>
+
+                <div class="border-t border-r w-10 h-1 p1 b align-r">
+                    $ 1200
+                </div>
+
+
+            </div>
+
+            <div class="d-flex">
+
+                <div class="border-tabla-superior border-b w-60 h-1 p1 b">
+                    Pizza de cuatro quesos y aceitunas negras
+                </div>
+
+                <div class="border-t border-b w-10 h-1 p1 align-c">
+                    <input type="number" name="cantidad" id="cantidad" step="0.5" class="inputCantidad_pedido" value="1">
+                </div>
+                
+                <div class="border-l border-t border-b w-10 h-1 p1 align-c">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                </div>
+                
+                <div class="border-t border-l border-r border-b w-10 h-1 p1 b align-r">
+                    $ 450
+                </div>
+
+                <div class="border-t border-b border-r w-10 h-1 p1 b align-r">
+                    $ 450
+                </div>
+
+
+            </div>
+
+            <div class="d-flex mt-2">
+
+                <div class="border-tabla-superior border-b w-90 h-1 p1 b">
+                    Gastos de envío
+                </div>
+
+                <div class="border-r border-t border-b w-10 h-1 p1 align-c b">
+                    $ 100
+                </div>
+
+            </div>       
+            
+            <div class="d-flex mt-2">
+
+                <div class="border-tabla-superior border-b w-90 h-1 p1 b">
+                    Total
+                </div>
+
+                <div class="border-r border-t border-b w-10 h-1 p1 align-c b">
+                    $ 2860
+                </div>
+
+            </div>                   
+
+
+            <div class="mt-2 mb-3 align-c">
+                <input type="submit" value="REALIZAR PEDIDO" class="btn w-40">
+            </div>
+
+        </div>
+
+        <div class="pedidos__contacto-movil">
+
+            <h2 class="linea-separador mb-2">Mi pedido</h2>   
+
+            
+            <!-- row -->
+
+            <div class="d-flex">
+
+                <div class="border-tabla-superior w-100 h-1 p1 b">
+                    Pizza especial
+                </div>
+
+            </div>
+
+            <div class="d-flex">
+
+                <div class="border-t border-l w-25 h-1 p1 align-c">Cantidad</div>
+                <div class="border-t border-l w-25 h-1 p1 align-c">Acciones</div>
+                <div class="border-t border-l border-r  w-25 h-1 p1 align-c">Precio</div>
+                <div class="border-t border-r w-25 h-1 p1 align-c">Total</div>                
+
+            </div> 
+
+
+            <div class="d-flex">
+
+                <div class="border-t border-l border-b w-25 h-1 p1 align-c d-flex">
+                    <input type="number" name="cantidad" id="cantidad" step="0.5" class="inputCantidad_pedido" value="2">
+                </div>
+                
+                <div class="border-l border-t border-b w-25 h-1 p1 align-c">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                </div>
+
+                <div class="border-t border-r  border-b border-l w-25 h-1 p1 b align-r">
+                    $ 380
+                </div>
+
+                <div class="border-t border-r border-b w-25 h-1 p1 b align-r">
+                    $ 760
+                </div>
+
+            </div>
+            
+            <!-- /row -->
+
+
+            <!-- row -->
+
+            <div class="d-flex mt-2 ">
+
+                <div class="border-tabla-superior w-100 h-1 p1 b">
+                    Pizza Napolitana
+                </div>
+
+            </div>
+
+            <div class="d-flex">
+
+                <div class="border-t border-l w-25 h-1 p1 align-c">Cantidad</div>
+                <div class="border-t border-l w-25 h-1 p1 align-c">Acciones</div>
+                <div class="border-t border-l border-r  w-25 h-1 p1 align-c">Precio</div>
+                <div class="border-t border-r w-25 h-1 p1 align-c">Total</div>                
+
+            </div> 
+
+
+            <div class="d-flex">
+
+                <div class="border-t border-l border-b w-25 h-1 p1 align-c d-flex">
+                    <input type="number" name="cantidad" id="cantidad" step="0.5" class="inputCantidad_pedido" value="1">
+                </div>
+                
+                <div class="border-l border-t border-b w-25 h-1 p1 align-c">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                </div>
+
+                <div class="border-t border-r border-b border-l w-25 h-1 p1 b align-r">
+                    $ 350
+                </div>
+
+                <div class="border-t border-r border-b w-25 h-1 p1 b align-r">
+                    $ 350
+                </div>
+
+            </div>
+            
+            <!-- /row -->          
+            
+            <!-- row -->
+
+            <div class="d-flex mt-2">
+
+                <div class="border-tabla-superior w-100 h-1 p1 b">
+                    Empanadas de Jamón y Queso
+                </div>
+
+            </div>
+
+            <div class="d-flex">
+
+                <div class="border-t border-l w-25 h-1 p1 align-c">Cantidad</div>
+                <div class="border-t border-l w-25 h-1 p1 align-c">Acciones</div>
+                <div class="border-t border-l border-r  w-25 h-1 p1 align-c">Precio</div>
+                <div class="border-t border-r w-25 h-1 p1 align-c">Total</div>                
+
+            </div> 
+
+
+            <div class="d-flex">
+
+                <div class="border-t border-l border-b w-25 h-1 p1 align-c d-flex">
+                    <input type="number" name="cantidad" id="cantidad" step="0.5" class="inputCantidad_pedido" value="12">
+                </div>
+                
+                <div class="border-l border-t border-b w-25 h-1 p1 align-c">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                </div>
+
+                <div class="border-t border-r border-l border-b w-25 h-1 p1 b align-r">
+                    $ 100
+                </div>
+
+                <div class="border-t border-r border-b w-25 h-1 p1 b align-r">
+                    $ 1200
+                </div>
+
+            </div>
+            
+            <!-- /row -->                  
+
+            <!-- row -->
+
+            <div class="d-flex mt-2">
+
+                <div class="border-tabla-superior w-100 h-1 p1 b">
+                    Pizza de cuatro quesos y aceitunas negras
+                </div>
+
+            </div>
+
+            <div class="d-flex">
+
+                <div class="border-t border-l w-25 h-1 p1 align-c">Cantidad</div>
+                <div class="border-t border-l w-25 h-1 p1 align-c">Acciones</div>
+                <div class="border-t border-l border-r  w-25 h-1 p1 align-c">Precio</div>
+                <div class="border-t border-r w-25 h-1 p1 align-c">Total</div>                
+
+            </div> 
+
+
+            <div class="d-flex">
+
+                <div class="border-t border-l border-b w-25 h-1 p1 align-c d-flex">
+                    <input type="number" name="cantidad" id="cantidad" step="0.5" class="inputCantidad_pedido" value="1">
+                </div>
+                
+                <div class="border-l border-t border-b w-25 h-1 p1 align-c">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                </div>
+
+                <div class="border-t border-r border-b border-l w-25 h-1 p1 b align-r">
+                    $ 4350
+                </div>
+
+                <div class="border-t border-r border-b w-25 h-1 p1 b align-r">
+                    $ 450
+                </div>
+
+            </div>
+            
+            <!-- /row -->          
+            
+
+            <div class="d-flex mt-2">
+
+                <div class="border-tabla-superior border-b w-75 h-1 p1 b">
+                    Gastos de envío
+                </div>
+
+                <div class="border-r border-t border-b w-25 h-1 p1 align-c b">
+                    $ 100
+                </div>
+
+            </div>       
+            
+            <div class="d-flex mt-2">
+
+                <div class="border-tabla-superior border-b w-75 h-1 p1 b">
+                    Total
+                </div>
+
+                <div class="border-r border-t border-b w-25 h-1 p1 align-c b">
+                    $ 2860
+                </div>
+
+            </div>                   
+
+
+            <div class="mt-2 mb-3 align-c">
+                <input type="submit" value="REALIZAR PEDIDO" class="btn w-40">
+            </div>
+
+        </div>
+                
+    </main>
+
+    </form>
+
+    <footer class="footer__fixed">
+
+        <div class="footer__txt">
+            <p>
+                <span>Desarrollada por Jorge De Gaetano</span>
+                <span class="separador"> | </span>
+                <span>Curso de Desarrollo Web - CoderHouse 2022</span>
+            </p>
+        </div>  
+
+        <div class="footer__redes">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="assets/img/icons8-whatsapp-50.png" alt="Icono WhatsApp">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </footer>
+
+</body>
+</html>
