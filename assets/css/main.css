@@ -1,14 +1,5 @@
 /* -------------------------------------- RESET -------------------------------------- */
-/*
-@import "./partial/header"
-crear carpeta scss y partials
 
-color: rgba($color, 0.5);
-color: darken($color, 20%);
-color: lighten($color, 30%);
-color: mix($color2, $color2);
-
-*/
 * {
   margin: 0;
   padding: 0;
