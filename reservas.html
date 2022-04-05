@@ -52,70 +52,68 @@
 
     <form action="" method="post">
 
-    <main class="reservas__container">    
+        <main class="reservas__container">    
 
-        <div class="reservas__contacto">
+            <div class="reservas__contacto">
 
-            <h2 class="linea-separador">Reservas</h2>   
+                <h2 class="linea-separador">Reservas</h2>   
 
 
-            <div class="d-flex w-100 col-gap-1">
+                <div class="d-flex w-100 col-gap-1">
 
-                <div class="w-50">
-                    <label for="adultos">Adultos</label>
-                    <input type="number" step="1" name="adultos" value="">
+                    <div class="w-50">
+                        <label for="adultos">Adultos</label>
+                        <input type="number" step="1" name="adultos" value="">
+                    </div>
+                    
+                    <div class="w-50">
+                        <label for="ninos">Niños</label>
+                        <input type="number" step="1" name="ninos" value="">
+                    </div>
+
+                </div>                    
+
+                <label for="nombre">Nombre y apellido</label>
+                <input type="text" name="nombre">
+
+                <label for="email">Email</label>
+                <input type="text" name="email">
+
+                <label for="email">Celular</label>
+                <input type="text" name="celular">
+
+                <div class="d-flex w-100 col-gap-1">
+
+                    <div class="w-50">
+                        <label for="fecha">Fecha</label>
+                        <input type="date" name="fecha">
+                    </div>
+
+                    <div class="w-50">
+                        <label for="hora">Hora</label>
+                        <input type="time" name="hora">                
+                    </div>
+
                 </div>
-                
-                <div class="w-50">
-                    <label for="ninos">Niños</label>
-                    <input type="number" step="1" name="ninos" value="">
-                </div>
 
-            </div>                    
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" cols="30" rows="10"></textarea>            
 
-            <label for="nombre">Nombre y apellido</label>
-            <input type="text" name="nombre">
-
-            <label for="email">Email</label>
-            <input type="text" name="email">
-
-            <label for="email">Celular</label>
-            <input type="text" name="celular">
-
-            <div class="d-flex w-100 col-gap-1">
-
-                <div class="w-50">
-                    <label for="fecha">Fecha</label>
-                    <input type="date" name="fecha">
-                </div>
-
-                <div class="w-50">
-                    <label for="hora">Hora</label>
-                    <input type="time" name="hora">                
+                <div class="mt-2 mb-3">
+                    <input type="submit" value="RESERVAR" class="btn w-100">
                 </div>
 
             </div>
-
-            <label for="mensaje">Mensaje</label>
-            <textarea name="mensaje" cols="30" rows="10"></textarea>            
-
-            <div class="mt-2 mb-3">
-                <input type="submit" value="RESERVAR" class="btn w-100">
-            </div>
-
-        </div>
-        
-    </main>
+            
+        </main>
 
     </form>
 
-    <footer>
+    <footer class="footer__fixed">
 
         <div class="footer__txt">
             <p>
-                <span>Desarrollada por Jorge De Gaetano</span>
-                <span class="separador"> | </span>
-                <span>Curso de Desarrollo Web - CoderHouse 2022</span>
+                <span>Desarrollada por Jorge De Gaetano 2022</span>
             </p>
         </div>  
 
