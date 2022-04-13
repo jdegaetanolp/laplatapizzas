@@ -1,0 +1,19 @@
+nav {
+    &.bg-pizza-primary {
+        background: $primary;
+    }
+    .nav-link {
+        color: $blanco;
+        font-size: 1.1rem;
+        transition: .3s;
+    
+        &active {
+            font-weight: bold;
+            transition: .3s;
+        }
+    
+        &:hover {
+            color: $amarillo;
+        }
+    }
+}

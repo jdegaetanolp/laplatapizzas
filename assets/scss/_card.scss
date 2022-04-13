@@ -1,0 +1,46 @@
+$cards: (
+
+    ancho: 350px,
+    1rem: 1rem
+
+);
+
+.card{
+    width: map-get($cards , ancho );
+    min-width:  map-get($cards , ancho );
+    border-radius: 8px;
+    padding: 20px;    
+    transition: transform 0.3s;
+    margin: map-get($cards , 1rem );
+
+    &:hover{
+        box-shadow: 2px 3px 4px 4px $capa_semi_oscura;
+        cursor: pointer;
+    }
+    
+    img{
+        max-height: 160px;
+    }
+
+    .inputCantidad{
+        width: 25%;
+        height: 40px;
+        text-align: center;
+        font-size: map-get($cards , 1rem );
+    }
+
+    .precio h2{
+        font-size: 1.8rem;
+        margin-top: 20px;
+        text-align: right;
+        color: $primary;
+    }
+    
+    .precio span{
+        font-size: map-get($cards , 1rem );
+        color: $gris_claro;
+        text-decoration: line-through;
+        text-align: center;
+        padding-right: 5px;
+    }
+}

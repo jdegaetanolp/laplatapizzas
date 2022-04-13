@@ -1,0 +1,7 @@
+@mixin inputPedido($width, $height) {
+
+    width: $width;
+    height: $height;
+    text-align: center;
+    font-size: 1rem;
+}

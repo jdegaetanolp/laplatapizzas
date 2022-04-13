@@ -1,0 +1,14 @@
+#pedido {
+
+    .inputCantidad_pedido{
+
+        @include inputPedido(80%, 22px);
+        
+    }
+
+    .inputCantidad_pedidoLista{
+
+        @include inputPedido(100px, 22px);
+
+    }
+}

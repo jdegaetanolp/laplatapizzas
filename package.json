@@ -1,0 +1,19 @@
+{
+  "name": "laplatapizzas",
+  "version": "1.0.0",
+  "description": "Web de venta de pizzas y empanadas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdegaetanolp/laplatapizzas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdegaetanolp/laplatapizzas/issues"
+  },
+  "homepage": "https://github.com/jdegaetanolp/laplatapizzas#readme"
+}
