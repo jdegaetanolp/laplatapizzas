@@ -2,6 +2,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+h3 {
+  font-size: 1.2rem !important;
+}
+
 nav.bg-pizza-primary {
   background: #CD0D29;
 }
@@ -68,6 +72,12 @@ nav .nav-link:hover {
   padding-right: 5px;
 }
 
+.iframes, .bloque .iframe {
+  width: 100%;
+  height: 350px;
+  padding-left: 30px;
+}
+
 .bloque {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -76,9 +86,6 @@ nav .nav-link:hover {
   background-color: #e6e4e4;
 }
 .bloque .iframe {
-  width: 100%;
-  height: 350px;
-  padding-left: 30px;
   padding-right: 30px;
 }
 .bloque .img-bloque {
@@ -111,6 +118,14 @@ nav .nav-link:hover {
   height: 22px;
   text-align: center;
   font-size: 1rem;
+}
+
+footer {
+  background-color: #CD0D29;
+}
+footer .footer__fixed {
+  position: absolute;
+  bottom: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
