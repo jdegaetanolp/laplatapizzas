@@ -1,41 +1,35 @@
 body {
-  font-family: "Open Sans", sans-serif;
-}
+  font-family: 'Open Sans', sans-serif; }
 
 h3 {
-  font-size: 1.2rem !important;
-}
+  font-size: 1.2rem !important; }
 
 nav.bg-pizza-primary {
-  background: #CD0D29;
-}
+  background: #CD0D29; }
+
 nav .nav-link {
   color: #ffffff;
   font-size: 1.1rem;
-  transition: 0.3s;
-}
-nav .nav-linkactive {
-  font-weight: bold;
-  transition: 0.3s;
-}
-nav .nav-link:hover {
-  color: #f7d154;
-}
+  transition: .3s; }
+  nav .nav-linkactive {
+    font-weight: bold;
+    transition: .3s; }
+  nav .nav-link:hover {
+    color: #f7d154; }
 
 .carousel .carousel-caption {
   bottom: 220px;
-  z-index: 2;
-}
+  z-index: 2; }
+
 .carousel .carousel-inner::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 100%;
   left: 0;
   top: 0;
   background: rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
+  z-index: 1; }
 
 .card {
   width: 350px;
@@ -43,89 +37,71 @@ nav .nav-link:hover {
   border-radius: 8px;
   padding: 20px;
   transition: transform 0.3s;
-  margin: 1rem;
-}
-.card:hover {
-  box-shadow: 2px 3px 4px 4px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-}
-.card img {
-  max-height: 160px;
-}
-.card .inputCantidad {
-  width: 25%;
-  height: 40px;
-  text-align: center;
-  font-size: 1rem;
-}
-.card .precio h2 {
-  font-size: 1.8rem;
-  margin-top: 20px;
-  text-align: right;
-  color: #CD0D29;
-}
-.card .precio span {
-  font-size: 1rem;
-  color: rgba(83, 83, 83, 0.5);
-  text-decoration: line-through;
-  text-align: center;
-  padding-right: 5px;
-}
+  margin: 1rem; }
+  .card:hover {
+    box-shadow: 2px 3px 4px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer; }
+  .card img {
+    max-height: 160px; }
+  .card .inputCantidad {
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    font-size: 1rem; }
+  .card .precio h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    text-align: right;
+    color: #CD0D29; }
+  .card .precio span {
+    font-size: 1rem;
+    color: rgba(83, 83, 83, 0.5);
+    text-decoration: line-through;
+    text-align: center;
+    padding-right: 5px; }
 
 .iframes, .bloque .iframe {
   width: 100%;
   height: 350px;
-  padding-left: 30px;
-}
+  padding-left: 30px; }
 
 .bloque {
   margin-top: 50px;
   margin-bottom: 50px;
   max-width: 100%;
   padding: 30px;
-  background-color: #e6e4e4;
-}
-.bloque .iframe {
-  padding-right: 30px;
-}
-.bloque .img-bloque {
-  height: 400px;
-  width: 100%;
-  object-fit: cover;
-}
+  background-color: #e6e4e4; }
+  .bloque .iframe {
+    padding-right: 30px; }
+  .bloque .img-bloque {
+    height: 400px;
+    width: 100%;
+    object-fit: cover; }
 
 .linea-separador {
   width: 100%;
-  border-bottom: 2px solid #CD0D29;
-}
+  border-bottom: 2px solid #CD0D29; }
 
 .sin-bullet {
-  list-style: none;
-}
+  list-style: none; }
 
 .h-80 {
-  height: 80px;
-}
+  height: 80px; }
 
 #pedido .inputCantidad_pedido {
   width: 80%;
   height: 22px;
   text-align: center;
-  font-size: 1rem;
-}
+  font-size: 1rem; }
+
 #pedido .inputCantidad_pedidoLista {
   width: 100px;
   height: 22px;
   text-align: center;
-  font-size: 1rem;
-}
+  font-size: 1rem; }
 
 footer {
-  background-color: #CD0D29;
-}
-footer .footer__fixed {
-  position: absolute;
-  bottom: 0;
-}
-
-/*# sourceMappingURL=main.css.map */
+  background-color: #CD0D29; }
+  footer .footer__fixed {
+    position: absolute;
+    bottom: 0; }
